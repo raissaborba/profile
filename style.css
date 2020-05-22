@@ -67,19 +67,25 @@ a:hover {
   margin: 8px 16px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
   /* For a screen < 960px, this CSS will be read */
   .card-white {
     width: 700px;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   /* For a screen < 720px, this CSS will be read */
   .card-white {
     width: 500px;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 556px) {
   /* For a screen < 540px, this CSS will be read */
   .card-white {
     width: 300px;
